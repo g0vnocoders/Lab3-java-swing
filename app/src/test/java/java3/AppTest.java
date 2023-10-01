@@ -5,22 +5,7 @@ package java3;
 import org.junit.jupiter.api.Test;
 
 class AppTest {
-    @Test void testLab2Task1() {
-        new ExtEventHandler("Друга програма");
-        //wait
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-    @Test void testOwn() {
-        new House("Власна програма");
-        //wait
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+    @Test void testHello() {
+        // new Graphic("Graphic");
     }
 }
